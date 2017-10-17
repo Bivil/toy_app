@@ -26,3 +26,7 @@
 # RVM
 .ruby-gemset
 .ruby-version
+
+
+# Ignore Spring files.
+/spring/*.pid
