@@ -1,5 +1,5 @@
 
-development: &default
+development: &defaults
   adapter: mysql2
   encoding: utf8
   database: toy_db
@@ -7,3 +7,6 @@ development: &default
   host: 127.0.0.1
   username: root
   password:
+
+test:
+  <<: *defaults
